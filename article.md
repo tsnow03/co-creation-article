@@ -7,7 +7,7 @@ tags:
   - open science
   - open source
   - geoscience
-<!-- thumbnail: images/la-palma-eruption-2022-paper.png -->
+thumbnail: images/Model_CollaborationFigure1.png
 abstract: |
   Proprietary development solutions are often perceived as being delivered more quickly and easily than open methods, fueling the misconception that they inherently produce better overall outcomes. However, we argue that open development practices can lead to both efficient and maximally impactful outcomes and that one successful strategy for accelerating open approaches in the geosciences is co-creation. This collaborative flywheel dynamic -- pioneered in the geosciences by the Pangeo project -- encourages teamwork, standardizes access to shared infrastructure, and facilitates iterations of stakeholder feedback and development to accelerate solution finding.
 summary: |
@@ -17,6 +17,8 @@ data_availability: |
   The code for this article [is available on GitHub](https://github.com/tsnow03/co-creation-article). No other data was used.
 acknowledgments: |
   We thank NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877) for funding this work. We thank the development teams, collaborators, and users within each of our development or research communities: Openscapes, NASA OpenScienceLab, 2i2c, CryoCloud, NASA Veda, icepyx, NOAA Fisheries, NASA SlideRule, National Snow and Ice Data Center, Development Seed. The scientific results and conclusions, as well as any views or opinions expressed herein, are those of the authors and do not necessarily reflect those of NASA, NOAA, or the Department of Commerce.
+bibliography:
+  - references.bib
 keypoints:
   - A co-creation community model can produce geoscience solutions that are more impactful and more efficient than proprietary methods
 ---
