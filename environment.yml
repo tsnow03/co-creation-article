@@ -1,4 +1,4 @@
-name: lapalma-earthquakes
+name: cocreation
 channels:
   - conda-forge
   - default
