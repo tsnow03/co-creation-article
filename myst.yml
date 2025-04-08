@@ -250,9 +250,15 @@ project:
   github: ""
   open_access: true
   license:
-    content: CC-BY-SA-4.0
+    content: CC-BY-4.0
     code: MIT
-  funding: []
+  funding:
+    - statement: We thank NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877) for funding this work.
+      id: 10070
+      source:
+        - name: NASA Transform to Open Science
+        - name: NASA Cryosphere Program
+        - name: NASA ICESat-2 Project Science Office
   subject: Commentaries Original Submission
   venue:
     title: Notebooks Now!
@@ -266,7 +272,7 @@ project:
     - environment.yml
   resources: 
     - README.md
-  banner: ""
+  banner: ./images/banner.png
   options:
     journal_name: Earth and Space Science
     draft: false
