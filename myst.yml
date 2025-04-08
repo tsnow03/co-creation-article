@@ -115,7 +115,7 @@ project:
       affiliations:
         - devseed
     - id: yuvi
-      name: Yuvi
+      name: "Yuvi"
       orcid: 
       corresponding: false
       roles: Writing – review & editing
@@ -235,9 +235,9 @@ project:
     journal_name: Earth and Space Science
     draft: false
   exports:
-    # - format: meca
-    #   article: article.md
-    #   output: meca.zip
+    - format: meca
+      article: article.md
+      output: meca.zip
     - format: jats
       article: article.md
     - format: pdf
@@ -249,13 +249,6 @@ project:
     #   output: tex.zip
     #   template: agu2019
   jupyter: true
-# author_contributions: T.S. and C.H. designed research and performed research. T.S., C.H., W.S., J.S., E.A., J.M., S.B., C.B., J.C., L.L.E., E.H., J.K., J.L., A.M., Y.P., F.P., J.P.S., A.T., and M.R.S. wrote the paper.
-# equal_authors:
-#   - Tasha Snow
-#   - Christopher Holdgraf
-# corresponding_author:
-#   name: Tasha Snow
-#   email: tsnow03@umd.edu
 site:
   title: A path to better science through co-creation and open infrastructure
   options:
