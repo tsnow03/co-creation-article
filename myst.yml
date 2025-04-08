@@ -1,65 +1,274 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  title: La Palma Seismicity 2021
-  subtitle: An analysis of earthquake swarms in relation to the 2021 eruption
+  title: A path to better science through co-creation and open infrastructure
   authors:
-    - id: spurves
-      name: Steve Purves
-      orcid: 0000-0002-0760-5497
+    - id: tasha-snow
+      name: Tasha Snow
+      orcid: 0000-0001-5697-5470
       corresponding: true
-      email: steve@curvenote.com
+      email: tsnow03@umd.edu
       roles:
-        - Investigation
-        - Project administration
-        - Software
-        - Visualization
+        - Equal Contribution
       affiliations:
-        - curvenote
-    - id: rcockett
-      name: Rowan Cockett
-      orcid: 0000-0002-7859-8394
+        - umd
+        - nasa_goddard
+        - csm_geophysics
+    - id: christopher-holdgraf
+      name: Christopher Holdgraf
+      orcid: 0000-0002-2391-0678
       corresponding: false
-      role: Project administration
+      roles:
+        - Equal Contribution
       affiliations:
-        - curvenote
+        - twoi2c
+    - id: wilson-sauthoff
+      name: Wilson Sauthoff
+      orcid: 0000-0001-9683-1578
+      corresponding: false
+      affiliations:
+        - csm_geophysics
+        - csm_hse
+    - id: jessica-scheick
+      name: Jessica Scheick
+      orcid: 0000-0002-3421-4459
+      corresponding: false
+      affiliations:
+        - unhm
+        - uw_esci
+    - id: ellianna-abrahams
+      name: Ellianna Abrahams
+      orcid: 0000-0002-9879-1183
+      corresponding: false
+      affiliations:
+        - stanford_geophysics
+        - stanford_dsi
+    - id: joanna-millstein
+      name: Joanna Millstein
+      orcid: 0000-0002-8407-5485
+      corresponding: false
+      affiliations:
+        - csm_geophysics
+    - id: sanjay-bhangar
+      name: Sanjay Bhangar
+      orcid: 
+      corresponding: false
+      affiliations:
+        - devseed
+    - id: carl-boettiger
+      name: Carl Boettiger
+      orcid: 0000-0002-1642-628X
+      corresponding: false
+      affiliations:
+        - ucb
+    - id: james-colliander
+      name: James Colliander
+      orcid: 0000-0002-8087-0887
+      corresponding: false
+      affiliations:
+        - twoi2c
+    - id: luis-alberto-lopez-espinosa
+      name: Luis Alberto Lopez Espinosa
+      orcid: 0000-0003-4896-3263
+      corresponding: false
+      affiliations:
+        - nscdc
+    - id: elizabeth-holmes
+      name: Elizabeth Holmes
+      orcid: 0000-0001-9128-8393
+      corresponding: false
+      affiliations:
+        - noaa_fisheries
+    - id: joseph-h-kennedy
+      name: Joseph H. Kennedy
+      orcid: 0000-0002-9348-693X
+      corresponding: false
+      affiliations:
+        - alaska_satellite
+    - id: julia-s-lowndes
+      name: Julia S. Lowndes
+      orcid: 0000-0003-1682-3872
+      corresponding: false
+      affiliations:
+        - openscapes
+    - id: alex-i-mandel
+      name: Alex I. Mandel
+      orcid: 0000-0003-2024-6801
+      corresponding: false
+      affiliations:
+        - devseed
+    - id: yuvi
+      name: Yuvi
+      orcid: 
+      corresponding: false
+      affiliations:
+        - twoi2c
+    - id: fernando-perez
+      name: Fernando Pérez
+      orcid: 0000-0002-1725-9815
+      corresponding: false
+      affiliations:
+        - twoi2c
+        - ucb
+    - id: joe-paul-swinski
+      name: Joe-Paul Swinski
+      orcid: 0009-0007-0988-5334
+      corresponding: false
+      affiliations:
+        - nasa_goddard
+    - id: andy-teucher
+      name: Andy Teucher
+      orcid: 0000-0002-7840-692X
+      corresponding: false
+      affiliations:
+        - openscapes
+    - id: matthew-r-siegfried
+      name: Matthew R. Siegfried
+      orcid: 0000-0002-0868-4633
+      corresponding: false
+      affiliations:
+        - csm_geophysics
+        - csm_hse
   affiliations:
-    - id: curvenote
-      name: Curvenote Inc.
-      department: Publications Team
-      country: Canada
-      url: https://curvenote.com
-      email: support@curvenote.com
-      phone: 123-456-7890
-      fax: 123-456-7891
-  github: https://github.com/Notebooks-Now/submission-myst-full/
+    - id: umd
+      name: University of Maryland College Park
+      department: Earth and Space Science Interdisciplinary Center
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: nasa_goddard
+      name: NASA Goddard Space Flight Center
+      department: ""
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: csm_geophysics
+      name: Colorado School of Mines
+      department: Department of Geophysics
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: twoi2c
+      name: 2i2c.org
+      country: USA
+      url: https://2i2c.org
+      email: ""
+      phone: ""
+      fax: ""
+    - id: csm_hse
+      name: Colorado School of Mines
+      department: Hydrological Science and Engineering
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: unhm
+      name: University of New Hampshire Institute for the Study of Earth, Oceans, and Space
+      department: 
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: uw_esci
+      name: University of Washington, Department of Earth Science, eScience Institute"
+      department: ""
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: stanford_geophysics
+      name: Stanford University
+      department: Department of Geophysics
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: stanford_dsi
+      name: Stanford University
+      department: Data Science Institute
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: devseed
+      name: Development Seed
+      country: USA
+      url: https://developmentseed.org
+      email: ""
+      phone: ""
+      fax: ""
+    - id: ucb
+      name: University of California Berkeley
+      department: ""
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: nscdc
+      name: National Snow and Ice Data Center, CIRES, University of Colorado Boulder
+      department: ""
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: noaa_fisheries
+      name: NOAA Fisheries, Northwest Fisheries Science Center
+      department: 
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: alaska_satellite
+      name: Alaska Satellite Facility, University of Alaska Fairbanks
+      department: ""
+      country: USA
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+    - id: openscapes
+      name: Openscapes
+      department: ""
+      country: ""
+      url: ""
+      email: ""
+      phone: ""
+      fax: ""
+  github: ""
   open_access: true
   license:
     content: CC-BY-SA-4.0
     code: MIT
-  funding:
-    - statement: Supported by Notebooks Now! at AGU
-      id: 10070
-      source:
-        - name: Alfred P. Sloan Foundation
-          doi: http://dx.doi.org/10.13039/100000879
-  subject: Original Submission
+  funding: []
+  subject: Commentaries Original Submission
   venue:
     title: Notebooks Now!
     url: https://data.agu.org/notebooks-now/
   keywords:
-    - La Palma
-    - Earthquakes
-  date: 2022-10-11
-  requirements:
+    - open science
+    - open source
+    - geoscience
+  date: 2025-04-08
+  requirements: 
     - environment.yml
-  resources:
+  resources: 
     - README.md
-    - data/catalogoComunSV_1663233588717.csv
-    - data/lapalma_ign.csv
-  banner: ./images/banner.png
+  banner: ""
   options:
-    journal_name: Notebooks Now!
+    journal_name: Earth and Space Science
     draft: false
   exports:
     - format: meca
@@ -67,10 +276,6 @@ project:
       output: meca.zip
     - format: jats
       article: article.md
-      sub_articles:
-        - notebooks/seismic-monitoring.md
-        - notebooks/data-screening.ipynb
-        - notebooks/visualization-figure-creation-seaborn.ipynb
     - format: pdf
       article: article.md
       output: article.pdf
@@ -80,10 +285,17 @@ project:
       output: tex.zip
       template: agu2019
   jupyter: true
+# author_contributions: T.S. and C.H. designed research and performed research. T.S., C.H., W.S., J.S., E.A., J.M., S.B., C.B., J.C., L.L.E., E.H., J.K., J.L., A.M., Y.P., F.P., J.P.S., A.T., and M.R.S. wrote the paper.
+# equal_authors:
+#   - Tasha Snow
+#   - Christopher Holdgraf
+# corresponding_author:
+#   name: Tasha Snow
+#   email: tsnow03@umd.edu
 site:
-  title: La Palma Seismicity 2021
+  title: A path to better science through co-creation and open infrastructure
   options:
-    logo_text: La Palma Seismicity 2021
+    logo_text: A path to better science through co-creation and open infrastructure
   nav:
     - title: MyST Docs
       url: https://mystmd.org/guide
@@ -91,3 +303,5 @@ site:
     - title: Notebooks Now!
       url: https://data.agu.org/notebooks-now/
   template: article-theme
+
+
