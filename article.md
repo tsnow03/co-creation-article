@@ -17,10 +17,8 @@ data_availability: |
   The code for this article [is available on GitHub](https://github.com/tsnow03/co-creation-article). No other data was used.
 acknowledgments: |
   We thank NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877) for funding this work. We thank the development teams, collaborators, and users within each of our development or research communities: Openscapes, NASA OpenScienceLab, 2i2c, CryoCloud, NASA Veda, icepyx, NOAA Fisheries, NASA SlideRule, National Snow and Ice Data Center, Development Seed. The scientific results and conclusions, as well as any views or opinions expressed herein, are those of the authors and do not necessarily reflect those of NASA, NOAA, or the Department of Commerce.
-<!-- keypoints:
-  - You may specify 1 to 3 keypoints for this PDF template
-  - These keypoints are complete sentences and less than or equal to 140 characters
-  - They are specific to this PDF template, so they will not appear in other exports plain -->
+keypoints:
+  - A co-creation community model can produce geoscience solutions that are more impactful and more efficient than proprietary methods
 ---
 
 >If you want to go fast, go alone; if you want to go far, go together
