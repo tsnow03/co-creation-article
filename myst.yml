@@ -8,7 +8,10 @@ project:
       corresponding: true
       email: tsnow03@umd.edu
       roles:
-        - Equal Contribution
+        - Conceptualization
+        - Funding Acquisition
+        - Writing – original draft
+        - Writing – review & editing
       affiliations:
         - umd
         - nasa_goddard
@@ -18,7 +21,10 @@ project:
       orcid: 0000-0002-2391-0678
       corresponding: false
       roles:
-        - Equal Contribution
+        - Conceptualization
+        - Funding Acquisition
+        - Writing – original draft
+        - Writing – review & editing
       affiliations:
         - twoi2c
     - id: wilson-sauthoff
@@ -28,6 +34,7 @@ project:
       affiliations:
         - csm_geophysics
         - csm_hse
+      roles: Writing – review & editing
     - id: jessica-scheick
       name: Jessica Scheick
       orcid: 0000-0002-3421-4459
@@ -35,6 +42,7 @@ project:
       affiliations:
         - unhm
         - uw_esci
+      roles: Writing – review & editing
     - id: ellianna-abrahams
       name: Ellianna Abrahams
       orcid: 0000-0002-9879-1183
@@ -42,70 +50,82 @@ project:
       affiliations:
         - stanford_geophysics
         - stanford_dsi
+      roles: Writing – review & editing
     - id: joanna-millstein
       name: Joanna Millstein
       orcid: 0000-0002-8407-5485
       corresponding: false
       affiliations:
         - csm_geophysics
+      roles: Writing – review & editing
     - id: sanjay-bhangar
       name: Sanjay Bhangar
       orcid: 
       corresponding: false
       affiliations:
         - devseed
+      roles: Writing – review & editing
     - id: carl-boettiger
       name: Carl Boettiger
       orcid: 0000-0002-1642-628X
       corresponding: false
       affiliations:
         - ucb
+      roles: Writing – review & editing
     - id: james-colliander
       name: James Colliander
       orcid: 0000-0002-8087-0887
       corresponding: false
       affiliations:
         - twoi2c
+      roles: Writing – review & editing
     - id: luis-alberto-lopez-espinosa
       name: Luis Alberto Lopez Espinosa
       orcid: 0000-0003-4896-3263
       corresponding: false
       affiliations:
         - nscdc
+      roles: Writing – review & editing
     - id: elizabeth-holmes
       name: Elizabeth Holmes
       orcid: 0000-0001-9128-8393
       corresponding: false
       affiliations:
         - noaa_fisheries
+      roles: Writing – review & editing
     - id: joseph-h-kennedy
       name: Joseph H. Kennedy
       orcid: 0000-0002-9348-693X
       corresponding: false
       affiliations:
         - alaska_satellite
+      roles: Writing – review & editing
     - id: julia-s-lowndes
       name: Julia S. Lowndes
       orcid: 0000-0003-1682-3872
       corresponding: false
       affiliations:
         - openscapes
+      roles: Writing – review & editing
     - id: alex-i-mandel
       name: Alex I. Mandel
       orcid: 0000-0003-2024-6801
       corresponding: false
+      roles: Writing – review & editing
       affiliations:
         - devseed
     - id: yuvi
       name: Yuvi
       orcid: 
       corresponding: false
+      roles: Writing – review & editing
       affiliations:
         - twoi2c
     - id: fernando-perez
       name: Fernando Pérez
       orcid: 0000-0002-1725-9815
       corresponding: false
+      roles: Writing – review & editing
       affiliations:
         - twoi2c
         - ucb
@@ -113,18 +133,21 @@ project:
       name: Joe-Paul Swinski
       orcid: 0009-0007-0988-5334
       corresponding: false
+      roles: Writing – review & editing
       affiliations:
         - nasa_goddard
     - id: andy-teucher
       name: Andy Teucher
       orcid: 0000-0002-7840-692X
       corresponding: false
+      roles: Writing – review & editing
       affiliations:
         - openscapes
     - id: matthew-r-siegfried
       name: Matthew R. Siegfried
       orcid: 0000-0002-0868-4633
       corresponding: false
+      roles: Writing – review & editing
       affiliations:
         - csm_geophysics
         - csm_hse
@@ -133,121 +156,56 @@ project:
       name: University of Maryland College Park
       department: Earth and Space Science Interdisciplinary Center
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: nasa_goddard
       name: NASA Goddard Space Flight Center
-      department: ""
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: csm_geophysics
       name: Colorado School of Mines
       department: Department of Geophysics
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: twoi2c
       name: 2i2c.org
       country: USA
       url: https://2i2c.org
-      email: ""
-      phone: ""
-      fax: ""
     - id: csm_hse
       name: Colorado School of Mines
       department: Hydrological Science and Engineering
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: unhm
       name: University of New Hampshire Institute for the Study of Earth, Oceans, and Space
       department: 
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: uw_esci
       name: University of Washington, Department of Earth Science, eScience Institute"
-      department: ""
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: stanford_geophysics
       name: Stanford University
       department: Department of Geophysics
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: stanford_dsi
       name: Stanford University
       department: Data Science Institute
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: devseed
       name: Development Seed
       country: USA
       url: https://developmentseed.org
-      email: ""
-      phone: ""
-      fax: ""
     - id: ucb
       name: University of California Berkeley
-      department: ""
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: nscdc
       name: National Snow and Ice Data Center, CIRES, University of Colorado Boulder
-      department: ""
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: noaa_fisheries
       name: NOAA Fisheries, Northwest Fisheries Science Center
       department: 
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: alaska_satellite
       name: Alaska Satellite Facility, University of Alaska Fairbanks
-      department: ""
       country: USA
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
     - id: openscapes
       name: Openscapes
-      department: ""
-      country: ""
-      url: ""
-      email: ""
-      phone: ""
-      fax: ""
-  github: ""
+  github: https://github.com/tsnow03/co-creation-article/
   open_access: true
   license:
     content: CC-BY-4.0
@@ -277,19 +235,19 @@ project:
     journal_name: Earth and Space Science
     draft: false
   exports:
-    - format: meca
-      article: article.md
-      output: meca.zip
+    # - format: meca
+    #   article: article.md
+    #   output: meca.zip
     - format: jats
       article: article.md
     - format: pdf
       article: article.md
       output: article.pdf
       template: agu2019
-    - format: tex
-      article: article.md
-      output: tex.zip
-      template: agu2019
+    # - format: tex
+    #   article: article.md
+    #   output: tex.zip
+    #   template: agu2019
   jupyter: true
 # author_contributions: T.S. and C.H. designed research and performed research. T.S., C.H., W.S., J.S., E.A., J.M., S.B., C.B., J.C., L.L.E., E.H., J.K., J.L., A.M., Y.P., F.P., J.P.S., A.T., and M.R.S. wrote the paper.
 # equal_authors:
