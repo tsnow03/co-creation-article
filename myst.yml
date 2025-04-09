@@ -115,7 +115,7 @@ project:
       affiliations:
         - devseed
     - id: yuvi
-      name: "Yuvi"
+      name: Yuvi Panda
       orcid: 
       corresponding: false
       roles: Writing – review & editing
