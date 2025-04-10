@@ -1,33 +1,31 @@
-# Notebooks Now! Submission Template
-
+# A path to better science through co-creation and open infrastructure
+#### Commentaries for AGU Earth and Space Science published using Notebooks Now!
 [![Made with MyST](https://img.shields.io/badge/made%20with-myst-orange)](https://mystmd.org)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Notebooks-Now/submission-myst-full/HEAD?labpath=notebooks/data-screening.ipynb)
 
-This submission template is for a markdown-based publication with additional supporting notebook and markdown files, as well as supporting data, bibliography, and MyST build configuration.
+**Summary:** Proprietary development solutions are often perceived as being delivered more quickly and easily than open methods, fueling the misconception that they inherently produce better overall outcomes. However, we argue that open development practices can lead to both efficient and maximally impactful outcomes and that one successful strategy for accelerating open approaches in the geosciences is co-creation. This collaborative flywheel dynamic -- pioneered in the geosciences by the Pangeo project -- encourages teamwork, standardizes access to shared infrastructure, and facilitates iterations of stakeholder feedback and development to accelerate solution finding.
 
-## Source files
+## Notebooks Now! Submission Template
 
-The primary source file for this template is a MyST markdown article. This file may reference notebook cells from other sub-articles to use the output of these cells as figures. It may also reference content from other markdown sub-articles. All of these supplementary source notebooks/articles should be saved in the `notebooks/` folder. It also contains MyST blocks tagged in their metadata as `"part": "abstract"`, or `"part": "availability"` - these cells will be extracted from the document and included as the specified part in the built output.
+This submission template was used to create this markdown-based publication.
 
-## Supporting material
+### Source files
 
-### Supplementary data
-
-By convention, all data should be saved in `data/` directory. There is nothing magic about this directory; references to your data from your notebook must still specify the correct relative path.
+The primary source file for this template is a MyST markdown article (`article.md`). 
 
 ### Supplementary images
 
-Similar to the `data/` directory, images for figures should be specified in `images/` directory.
+Images for figures and banner are specified in `images/` directory.
 
 ### Bibliography
 
-Bibliography entries may be specified two ways, both described in the [MyST docs](https://mystmd.org/guide/citations). They may be listed explicitly in BibTeX format, by convention in the file `references.bib`, and referenced by key using a `cite` MyST role. They may also be specified as inline DOI links. These do not require full bibliographic information; the data is fetched implicitly on build from the DOI.
+Bibliography entries are specified by convention in the file `references.bib`.
 
-## MyST configuration
+### MyST configuration
 
-A `myst.yml` file must be provided to configure notebook metadata and exports. This includes authors, affiliations, licenses, keywords, and [much more](https://mystmd.org/guide/frontmatter).
+A `myst.yml` file is provided to configure notebook metadata and exports based on [mystmd frontmatter](https://mystmd.org/guide/frontmatter). The book produced and build time is laid out based on _toc.yml, though because this book only has one document, it really isn't needed.
 
-## Building output artifacts
+### Building output artifacts
 
 To build PDF/JATS output from your source data, you must have the MyST Markdown CLI installed
 
@@ -40,3 +38,5 @@ Then build all exports defined in the `myst.yml` file:
 ```bash
 myst build --all
 ```
+
+#### Please provide feedback via GitHub issues if you find any errors in this repo.
