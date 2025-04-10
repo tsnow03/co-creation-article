@@ -230,7 +230,7 @@ project:
     - environment.yml
   resources: 
     - README.md
-  banner: ./images/banner.png
+  banner: ./images/banner.JPG
   options:
     journal_name: Earth and Space Science
     draft: false
