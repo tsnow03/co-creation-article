@@ -2,12 +2,12 @@
 # File metadata may be provided as frontmatter YAML
 title: A path to better science through co-creation and open infrastructure
 description: 
-date: 2025-04-08
+date: 2025-04-10
 tags:
   - open science
   - open source
   - geoscience
-thumbnail: images/Model_CollaborationFigure1.png
+thumbnail: images/cocreation_shem.png
 abstract: |
   Proprietary development solutions are often perceived as being delivered more quickly and easily than open methods, fueling the misconception that they inherently produce better overall outcomes. However, we argue that open development practices can lead to both efficient and maximally impactful outcomes and that one successful strategy for accelerating open approaches in the geosciences is co-creation. This collaborative flywheel dynamic -- pioneered in the geosciences by the Pangeo project -- encourages teamwork, standardizes access to shared infrastructure, and facilitates iterations of stakeholder feedback and development to accelerate solution finding.
 summary: |
@@ -17,8 +17,6 @@ data_availability: |
   The code for this article [is available on GitHub](https://github.com/tsnow03/co-creation-article). No other data was used.
 acknowledgments: |
   We thank NASA Transform to Open Science program (grant 80NSSC23K0002), and the NASA Cryosphere Program and ICESat-2 Project Science Office (grant 80NSSC22K1877) for funding this work. We thank the development teams, collaborators, and users within each of our development or research communities: Openscapes, NASA OpenScienceLab, 2i2c, CryoCloud, NASA Veda, icepyx, NOAA Fisheries, NASA SlideRule, National Snow and Ice Data Center, Development Seed. The scientific results and conclusions, as well as any views or opinions expressed herein, are those of the authors and do not necessarily reflect those of NASA, NOAA, or the Department of Commerce.
-bibliography:
-  - references.bib
 keypoints:
   - A co-creation community model can produce geoscience solutions that are more impactful and more efficient than proprietary methods
 ---
@@ -66,9 +64,17 @@ As a result, these co-creation cycles made improvements throughout the open sour
 # A feedback loop rooted in co-creation
 The feedback loop described above is a common pattern seen across our communities and projects. We generalize the process as a *three-phase co-creation cycle* that repeats itself:
 
-1. **Availability.** A shared platform ensures all participants can immediately use the community-tailored tools needed for collaborating together. 
+1. **Access.** A shared platform ensures all participants can immediately use the community-tailored tools needed for collaborating together. 
 2. **Learn.** A strong definition of community practices and values with investment in community skills in facilitating collaboration and learning lays a foundation for growing the co-creation skills of community members. A clear definition of community workflows, enabled by their shared platform, lets new members quickly learn and begin contributing to the science or development collective intelligence.
 3. **Create.** By giving community members the *skills* and *tools* they need for co-creation, they can answer modular questions, gain insight, and build tools on their own or in groups. With shared infrastructure, these ideas and improvements quickly permeate the broader community and, in many cases, the larger open-science ecosystem.
+
+```{figure} images/cocreation_schem.jpg
+:name: cocreate
+:align: center
+:width: 100%
+
+Three-phase co-creation cycle in the inner wheel with the model for replication outside.
+```
 
 A co-creation dynamic can be implemented beyond in-person workshops to persistent workspaces, as demonstrated by the Openscapes [@openscapes] and CryoCloud [@cryocloudbook] communities. These long-term collaborative community workspaces foster the three-phase co-creation cycle through shared persistent computational hubs (e.g., a JupyterHub [@jupyterhub]), shared communication platforms with saved histories (e.g., Slack), open training resources for new users (e.g., JupyterBook), and inviting all users and developers from the product pipeline into the community.
 
@@ -77,7 +83,7 @@ Active co-creation occurs when a troubleshooting question generates dozens of re
 In co-creation, using shared open technologies and leveraging a broad community of experts for science, development, and user support reduces the burden on project leads to provide all of the specialized expertise and time themselves. This enables the community to not only move faster but also achieve greater impact.
 
 
-# Co-creation in Action: Lessons from the Pangeo Project
+# Co-Creation in Action: Lessons from the Pangeo Project
 The open-source science Pangeo project [@pangeo] pioneered a powerful co-creation approach for the geosciences by uniting a strong technological and scientific vision with shared community infrastructure, collaborative workflows, and deep ties to open-source communities. Their goal was to build accessible, high-impact geoscience workflows through fully open tools and services. By forming cross-functional international teams, Pangeo created a tight co-creation feedback loop: new challenges receive immediate attention and solutions were quickly shared with the broader community.
 
 Notably, Pangeo leveraged platforms like GitHub and standardized cloud computing environments to enable rapid iteration, ensuring that solutions developed for specific needs also benefit the public. This strategy helped produce or improve widely adopted cross-domain software (e.g., Xarray, Dask, Jupyter, Zarr, hvplot, Kerchunk) and cloud-computing infrastructure (e.g., JupyterHub distribution for Kubernetes), now used worldwide in both industry [@holoviz] and academia.
@@ -114,12 +120,3 @@ While not exhaustive, these practices have been irreplaceable in our projects. H
 Pangeo's most innovative contribution to the scientific community has been an open development model guided by a powerful technological and scientific vision. This workflow reminds us that moving intentionally for the sake of allowing others to participate accelerates the creation of resilient, useful solutions by leveraging the micro-expertises and labor of many. In this way, open approaches can outperform proprietary ones.
 
 In our research and development cloud communities, we aim to scale Pangeo's collaborative co-creation model, which is fundamentally rooted in **how we do our work, not just what we build**. Prioritizing open technology, standard workflows, and community-centric infrastructure fosters more meaningful improvements along the way, such as more discoverable and analysis-ready data, more useful and user-friendly tools, and more impactful and reproducible science. Expanding this co-creation model will foster a broader, more resilient network of communities that share knowledge and develop enabling technologies. Ultimately, the greatest impact comes from this interconnected collaboration.
-
-
-<!-- ```{figure} images/la-palma-map.png
-:name: map
-:align: center
-:width: 100%
-
-Map of La Palma in the Canary Islands. Image credit [NordNordWest](https://commons.wikimedia.org/w/index.php?curid=76638603)
-``` -->
