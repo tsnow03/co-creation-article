@@ -21,10 +21,6 @@ keypoints:
   - A co-creation community model can produce geoscience solutions that are more impactful and more efficient than proprietary methods
 ---
 
->If you want to go fast, go alone; if you want to go far, go together
->
->— African proverb
-
 During the Palisades Fire, researchers were unable to access critical real-time fire mapping for over 12 hours preventing them from tracking the fire's spread to better warn communities in the potential path [@pagan2025]. This was not due to a lack of technology or data, but rather because access was locked behind proprietary walls. In contrast, open infrastructure ensures that science and technology reach and serve the broadest possible audience. 
 
 Adoption of open science and open-source development principles is growing in science and technology as 35 years of mounting evidence from software communities has shown they lead to better outcomes [@gnu; @royalsociety2012openscience; @unesco2021openscience; @besancon2021]. Open-source development is a collaborative approach to creating software with publicly available code, and open science is the principle and practice of making research processes and products accessible, reproducible, and usable by the public. Disciplines across science are transitioning to more openness to improve research efficiency [@donoho2024datascience], enhance impact [@woelfle2011openscience; @antelman2004openaccess], and ensure that science created with public funding is available to the public.
